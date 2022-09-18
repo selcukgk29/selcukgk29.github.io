@@ -1,0 +1,114 @@
+{
+  "name": "Selcuk GOK",
+  "email": "selcukgok29@gmail.com",
+  "subtitles": [
+    "Full Stack Developer",
+    "System and Network Specialist",
+    "Mechatronics Engineer"
+  ],
+  "blackWhitePhotoURL": "https://drive.google.com/uc?export=view&id=1np1Or8kvpEmH5ghkFN5GJGqU8VAQRUCH",
+  "coloredPhotoURL": "https://drive.google.com/uc?export=view&id=1wE4FRqC9bRrzOqS64b48--ykLK1yklTJ",
+  "socialLinks": [
+    {
+      "platform": "facebook",
+      "url": "https://facebook.com/mhmzdev"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/selcukgk29"
+    },
+    {
+      "platform": "twitter",
+      "url": "https://twitter.com/mhmzdev"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://linkedin.com/in/selçuk-gök-795972151/"
+    },
+    {
+      "platform": "github",
+      "url": "https://github.com/selcukgk29"
+    },
+    {
+      "platform": "medium",
+      "url": "https://medium.com/@selcukgok29"
+    }
+  ],
+  "aboutMeHeadline": "I'm Selcuk , a full stack developer, System , Network Specialist and Mechatronics Engineer.",
+  "aboueMeDetails": "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 2 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm a former Google DSC lead and also CEO/Co-Founder Flutter Islamabad, Pakistan.",
+  "technologies": [
+    "Node JS",
+    "HTML",
+    "CSS",
+    "Python",
+    "Flask",
+    "SQLite",
+    ",PostgreSQL",
+    "Git, Git Bash",
+    "Linux OS"
+  ],
+  "services": [
+    {
+      "icon": "assets/services/app.png",
+      "name": "Web Server Development",
+      "description": "Web server development via Python/Flask\n- HTML/CSS\n- SQLite\n- Socket Programming\n- system configurations on web server and more...!"
+    },
+    {
+      "icon": "assets/services/ui.png",
+      "name": "Industiral Network, IOT Applications",
+      "description": "-TCP/IP, LAN & WAN Technologys\n-Routing and Network Management\n-Modbus TCP/RTU-\n- MQTT\n- IEC104\n- CANBUS\n-and more..!"
+    },
+    {
+      "icon": "assets/services/rapid.png",
+      "name": "Linux OS System",
+      "description": "Linux System Configurations\n-Memory management\n-Ip tables\n-Ryslog/Syslog \n-and more..!"
+    },
+    {
+      "icon": "assets/services/blog.png",
+      "name": "Technical Blog Writing",
+      "description": "Technical Blog writing\n- Medium blogs\n- Researched topics and more..!"
+    },
+    {
+      "icon": "assets/services/open.png",
+      "name": "Open Source - GitHub",
+      "description": "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!"
+    }
+  ],
+  "hireMe": {
+    "whatsapp": "905319363282"
+  },
+  "projects": [
+    {
+      "title": "A-MQTT-client-with-PyQt5",
+      "iconUrl": "https://drive.google.com/file/d/1jpkSQyGZP5EWPCIfRz-dU9TARXHN2P5o/view?usp=sharing",
+      "bannerUrl": "assets/projects/mqttiot.png",
+      "description": "SmarT TecH IOT Dashboard is MQTT client desktop application made using PyQT5 and paho-mqtt.You can control home temperature, swicthes and air conditioner."
+    },
+    {
+      "title": "PyQt5-Temp-reporter.png",
+      "iconUrl": "assets/projects/hereiam.png",
+      "bannerUrl": "assets/projects/hereiamB.png",
+      "description": "This program aims to real time temp data view export all time data's and send autometed temp reports at frequency you need."
+    },
+    {
+      "title": "PySide2BeatifulSoupWebScrapping",
+      "iconUrl": "assets/projects/covid.png",
+      "bannerUrl": "assets/projects/covidB.png",
+      "description": "Fetches the weather forcast based on the location (city) entered by the user"
+    }
+  ],
+  "contact": [
+    {
+      "param": "address",
+      "value": "Istanbul, Türkiye"
+    },
+    {
+      "param": "phone",
+      "value": "+90 531 9363282"
+    },
+    {
+      "param": "email",
+      "value": "selcukgok29@gmail.com"
+    }
+  ]
+}
