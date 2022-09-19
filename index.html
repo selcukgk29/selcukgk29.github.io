@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <base href="/" />
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
     <meta
@@ -74,7 +75,22 @@
     </style>
   </head>
 
-  <body>
+  <body
+    flt-renderer="canvaskit (auto-selected)"
+    flt-build-mode="release"
+    spellcheck="false"
+    style="
+      position: fixed;
+      inset: 0px;
+      overflow: hidden;
+      padding: 0px;
+      margin: 0px;
+      user-select: none;
+      touch-action: none;
+      font: 14px sans-serif;
+      color: red;
+    "
+  >
     <div class="container">
       <div class="center">
         <div class="lds-ripple">
@@ -84,15 +100,21 @@
       </div>
     </div>
     <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
+         application. For more information, see:
+         https://developers.google.com/web/fundamentals/primers/service-workers -->
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("flutter-first-frame", function () {
-          navigator.serviceWorker.register("flutter_service_worker.js");
+          navigator.serviceWorker.register(
+            "flutter_service_worker.js?v=4141550365"
+          );
         });
       }
     </script>
     <script src="main.dart.js" type="application/javascript"></script>
+
+    <flt-glass-pane
+      style="position: absolute; inset: 0px; cursor: default"
+    ></flt-glass-pane>
   </body>
 </html>
